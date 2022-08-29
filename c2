@@ -1,0 +1,13 @@
+#include<stdio.h>
+void  main(){
+    int A;
+    int B;
+    int C;
+    printf("enter numder 1 \n");
+    scanf("%d",&A);
+    printf("enter number 2 \n");
+    scanf("%d",&B);
+    C=A/B;
+    printf("division is %d",A/B);
+    
+}
