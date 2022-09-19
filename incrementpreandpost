@@ -1,0 +1,18 @@
+#include<stdio.h>
+ void main()
+ {
+     int a;
+     int x;
+     printf("enter your frist number:");
+     scanf("%d",&a);
+     x=a++;
+     printf(" Post increment  value of x=%d and a=%d ",x,a);
+      
+     //next line 
+     printf("\n......................\n");
+     
+     printf("enter your second number:");
+     scanf("%d",&a);
+     x=a--;
+     printf("Post decrement value of x=%d and a=%d",x,a);
+ }
