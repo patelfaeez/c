@@ -7,7 +7,7 @@ void main (){
     printf("enter a value:");
     scanf("%d",&a);
    
-    printf("ener b value:");
+    printf("enter b value:");
     scanf("%d",&b);
    
     printf("enter c value:");
