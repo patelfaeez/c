@@ -1,0 +1,41 @@
+//Patel Faeez Abdul Rehman//
+#include<stdio.h>
+void main (){
+    int a;
+    int b;
+    int c;
+    printf("enter a value:");
+    scanf("%d",&a);
+   
+    printf("enter b value:");
+    scanf("%d",&b);
+   
+    printf("enter c value:");
+    scanf("%d",&c);
+   
+   if(a>b>c)
+   {
+       if(a>b) 
+       printf("a right\n");
+       if(b>c)
+       printf("b right\n");
+       if(a>c)
+    printf("c right\n");
+   }
+   else
+   {
+       (a<b<c);
+       printf("a wrong\n");
+       (b<c);
+       printf("b wrong\n");
+       (c<a);
+       printf("c wrong\n");
+   }
+}
+output
+enter a value:5
+enter b value:4
+enter c value:7
+a wrong
+b wrong
+c wrong
