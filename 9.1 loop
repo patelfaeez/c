@@ -1,4 +1,4 @@
-loop
+for loop
 #include <stdio.h>
 
 void main()
@@ -27,4 +27,23 @@ void main()
     {
     printf("\nHello world %d",i);
     }
+}
+
+**********************************************************
+
+// sum loop //
+#include <stdio.h>
+
+void main()
+{
+    int i;
+    int num;
+    printf("enter how many times you want:");
+    scanf("%d",&num);
+    int sum=0;
+    for(i=1;i<=num;i++)
+    {
+    sum=sum+i;
+    }
+    printf("%d",sum);
 }
