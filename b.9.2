@@ -1,0 +1,26 @@
+// sum of digit of the given number //
+
+#include<stdio.h>
+void main()
+{
+    int n;
+    int i;
+    int mod;
+    int sum=0;
+    int rev=0;
+    printf("enter number =");
+    scanf("%d",&n);
+
+    for(i=1;n!=0;i++)
+    {
+        mod=n%10;
+        sum=sum+mod;
+        
+        n=n/10;
+        rev=rev*10+mod;
+    }
+    printf("your sum = %d\n",sum);
+    
+    printf("your reverse = %d\n",rev);
+
+}
