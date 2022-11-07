@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+void main()
+
+{
+    int a[3][3],b[3][3],c[3][3];
+    int i,j;
+
+    for(i=0;i < 3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+        printf("Enter value of a matrix = ",i);
+        scanf("%d",&a[3][3]);
+        }
+    }
+
+    for(i=0;i < 3;i++)
+    {
+        for(j=0;j <3;j++)
+        {
+        printf("Enter value of b matrix = ",i);
+        scanf("%d",&b[3][3]);
+        }
+    }
+
+    for(i=0;i <3;i++)
+    {
+        for(j=0;j <3;j++)
+        {
+        c[3][3]=a[3][3]+b[3][3];
+        }
+        printf("%d",c[i][j]);
+    }
+
+}
