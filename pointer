@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+    int a=10;
+    int b=12;
+    printf("after swapping a=%d And b=%d\n", a,b);
+    int prt;
+    swap(&a,&b);
+
+}
+
+void swap(int*prt1,int*prt2)
+{
+    int good=*prt1;
+    *prt1=*prt2;
+    *prt2=good;
+    printf("value after swapping a=%d And b=%d", * prt1,* prt2);
+}
