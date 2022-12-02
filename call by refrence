@@ -1,0 +1,20 @@
+#include <stdio.h>
+void main()
+{
+    int a=4;
+    int b=7;
+
+    printf("Before swaping a=%d b=%d",a,b);
+   swap(&a,&b);
+}
+
+void swap(int*prt1,int*prt2)
+{
+    printf("\n a=%d b=%d",*prt1,*prt2);
+    int c;
+     c=*prt1;
+    *prt1=*prt2;
+    *prt2=c;
+
+    printf("\n After swaping a=%d b=%d",*prt1,*prt2);
+}
